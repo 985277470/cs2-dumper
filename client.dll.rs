@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-04-27 12:12:47.952674700 UTC
+// 2024-04-27 14:20:22.709848200 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -153,7 +153,7 @@ pub mod cs2_dumper {
                 pub const m_duckUntilOnGround: usize = 0x260; // bool
                 pub const m_bHasWalkMovedSinceLastJump: usize = 0x261; // bool
                 pub const m_bInStuckTest: usize = 0x262; // bool
-                pub const m_flStuckCheckTime: usize = 0x270; // 
+                pub const m_flStuckCheckTime: usize = 0x270; // float32[64][2]
                 pub const m_nTraceCount: usize = 0x470; // int32
                 pub const m_StuckLast: usize = 0x474; // int32
                 pub const m_bSpeedCropped: usize = 0x478; // bool
@@ -1718,7 +1718,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_vecServerAuthoritativeWeaponSlots (ServerAuthoritativeWeaponSlot_t)
             pub mod CCSPlayerController_InventoryServices {
                 pub const m_unMusicID: usize = 0x40; // uint16
-                pub const m_rank: usize = 0x44; // MedalRank_t[6]
+                pub const m_rank: usize = 0x44; // 
                 pub const m_nPersonaDataPublicLevel: usize = 0x5C; // int32
                 pub const m_nPersonaDataPublicCommendsLeader: usize = 0x60; // int32
                 pub const m_nPersonaDataPublicCommendsTeacher: usize = 0x64; // int32
@@ -2068,8 +2068,8 @@ pub mod cs2_dumper {
                 pub const m_bClipHitStaticWorld: usize = 0x12F4; // bool
                 pub const m_bCachedPlaneIsValid: usize = 0x12F5; // bool
                 pub const m_pClippingWeapon: usize = 0x12F8; // C_CSWeaponBase*
-                pub const m_previousPlayerState: usize = 0x1300; // 
-                pub const m_iPlayerState: usize = 0x1304; // 
+                pub const m_previousPlayerState: usize = 0x1300; // CSPlayerState
+                pub const m_iPlayerState: usize = 0x1304; // CSPlayerState
                 pub const m_bIsRescuing: usize = 0x1308; // bool
                 pub const m_fImmuneToGunGameDamageTime: usize = 0x130C; // GameTime_t
                 pub const m_fImmuneToGunGameDamageTimeLast: usize = 0x1310; // GameTime_t

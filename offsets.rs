@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-04-27 12:12:47.952674700 UTC
+// 2024-04-27 14:20:22.709848200 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -27,6 +27,7 @@ pub mod cs2_dumper {
         }
         // Module: engine2.dll
         pub mod engine2_dll {
+            pub const dwBuildNumber: usize = 0x516574;
             pub const dwNetworkGameClient: usize = 0x515AC8;
             pub const dwNetworkGameClient_deltaTick: usize = 0x258;
             pub const dwNetworkGameClient_getLocalPlayer: usize = 0xF0;
