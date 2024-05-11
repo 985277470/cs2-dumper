@@ -1,12 +1,12 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-04-27 14:20:22.709848200 UTC
+// 2024-05-11 07:18:15.819961900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod cs2_dumper {
     pub mod schemas {
         // Module: engine2.dll
-        // Classes count: 44
+        // Classes count: 43
         // Enums count: 4
         pub mod engine2_dll {
             // Alignment: 4
@@ -130,10 +130,6 @@ pub mod cs2_dumper {
             // Fields count: 1
             pub mod EventPreDataUpdate_t {
                 pub const m_nCount: usize = 0x0; // int32
-            }
-            // Parent: None
-            // Fields count: 0
-            pub mod EventClientPredictionPostNetupdate_t {
             }
             // Parent: None
             // Fields count: 3

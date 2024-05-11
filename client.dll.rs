@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-04-27 14:20:22.709848200 UTC
+// 2024-05-11 07:18:15.819961900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -1718,7 +1718,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_vecServerAuthoritativeWeaponSlots (ServerAuthoritativeWeaponSlot_t)
             pub mod CCSPlayerController_InventoryServices {
                 pub const m_unMusicID: usize = 0x40; // uint16
-                pub const m_rank: usize = 0x44; // 
+                pub const m_rank: usize = 0x44; // MedalRank_t[6]
                 pub const m_nPersonaDataPublicLevel: usize = 0x5C; // int32
                 pub const m_nPersonaDataPublicCommendsLeader: usize = 0x60; // int32
                 pub const m_nPersonaDataPublicCommendsTeacher: usize = 0x64; // int32
@@ -5879,7 +5879,7 @@ pub mod cs2_dumper {
                 pub const m_flRecoilAngleVariance: usize = 0xC9C; // CFiringModeFloat
                 pub const m_flRecoilMagnitude: usize = 0xCA4; // CFiringModeFloat
                 pub const m_flRecoilMagnitudeVariance: usize = 0xCAC; // CFiringModeFloat
-                pub const m_nTracerFrequency: usize = 0xCB4; // CFiringModeInt
+                pub const m_nTracerFrequency: usize = 0xCB4; // 
                 pub const m_flInaccuracyJumpInitial: usize = 0xCBC; // float32
                 pub const m_flInaccuracyJumpApex: usize = 0xCC0; // float32
                 pub const m_flInaccuracyReload: usize = 0xCC4; // float32
