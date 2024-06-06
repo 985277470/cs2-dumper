@@ -1,12 +1,12 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2024-05-11 07:18:15.819961900 UTC
+// 2024-06-06 03:12:30.273774400 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod cs2_dumper {
     pub mod schemas {
         // Module: engine2.dll
-        // Classes count: 43
+        // Classes count: 44
         // Enums count: 4
         pub mod engine2_dll {
             // Alignment: 4
@@ -246,6 +246,10 @@ pub mod cs2_dumper {
                 pub const m_LoopState: usize = 0x0; // EngineLoopState_t
                 pub const m_bFirstTick: usize = 0x28; // bool
                 pub const m_bLastTick: usize = 0x29; // bool
+            }
+            // Parent: None
+            // Fields count: 0
+            pub mod EventClientAdvanceNonRenderedFrame_t {
             }
             // Parent: EventSimulate_t
             // Fields count: 0
